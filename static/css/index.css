@@ -751,3 +751,57 @@ a:focus {
 
 
 
+/* Styles for the Grid Carousel */
+.result-label {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333; /* 默认文字颜色 */
+}
+
+/* Define colors for different labels */
+.label-ids { background-color: #e0e7ff; }
+.label-caption { background-color: #e0f2fe; }
+.label-ref { background-color: #d1fae5; }
+.label-ours { background-color: #dcfce7; }
+.label-vace { background-color: #fef9c3; }
+/* 你可以根据喜好修改或添加更多颜色 */
+
+.caption-text {
+  padding: 1rem;
+  font-size: 0.9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+/* Ensure media within columns are responsive */
+.column img,
+.column video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* 给图片和视频加一点圆角 */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 加一点阴影，更有立体感 */
+}
+
+.image-small {
+  max-width: 60% !important; /* 使用 !important 确保覆盖原有样式 */
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+
+.image-tiny {
+  max-width: 30% !important; /* 使用 !important 确保覆盖原有样式 */
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.video-tiny {
+  max-height: 30% !important;
+}

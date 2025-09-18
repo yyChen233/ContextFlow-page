@@ -6,7 +6,7 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <meta name="title" content="ContextFlow">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
   <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
@@ -74,7 +74,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>ContextFlow</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -187,53 +187,7 @@
   </button>
 
   <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
+  
   <main id="main-content">
   <section class="hero">
     <div class="hero-body">
@@ -247,18 +201,20 @@
               <span class="author-block">
                 <a href="https://github.com/yyChen233" target="_blank">Yiyang Chen</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Xuanhua He</a><sup>2,*</sup>,</span>
+                  <a href="https://xuanhuahe.github.io/" target="_blank">Xuanhua He</a><sup>2,*</sup>,</span>
                   <span class="author-block">
                     <a href="https://sai.pku.edu.cn/info/1362/2250.htm" target="_blank">Xiujun Ma</a><sup>1,*</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yue Ma</a><sup>2,*</sup>,
+                    <a href="https://mayuelala.github.io/" target="_blank">Yue Ma</a><sup>2,*</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">State Key Laboratory of General Artifical Intelligence, Peking University, Beijing, China</span>
+                    <span class="author-block"><sup>1</sup> State Key Laboratory of General Artifical Intelligence, Peking University, Beijing, China</span>
+                    <span class="author-block"><sup>2</sup> The Hong Kong University of Science and Technology</span>
+  
                     <!-- TODO: Remove this line if no equal contribution -->
                     <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Authors.</small></span>
                   </div>
@@ -276,20 +232,11 @@
                       </a>
                     </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+                    
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/yyChen233/ContextFlow" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -299,15 +246,7 @@
                 </span>
 
                 <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                
             </div>
           </div>
         </div>
@@ -322,13 +261,11 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
+      <img src="static/images/teaser.png" alt="Teaser Image of the Project" class="teaser-image">
+
+      <!-- TODO: Replace with your image description (or remove if not needed) -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Our ContextFlow achieves versatile and high-fidelity video object editing without any training. Our method demonstrates superior ability in a range of object-related challenging tasks, including object insertion (1st row), swapping (2nd row), and deletion (3rd row).  
       </h2>
     </div>
   </div>
@@ -344,7 +281,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Training-free video object editing aims to achieve precise object-level manipulation, including object insertion, swapping, and deletion. However, it faces significant challenges in maintaining fidelity and temporal consistency. Existing methods, often designed for U-Net architectures, suffer from two primary limitations: inaccurate inversion due to first-order solvers, and contextual conflicts caused by crude "hard" feature replacement. These issues are more challenging in Diffusion Transformers (DiTs), where the unsuitability of prior layer-selection heuristics makes effective guidance challenging. To address these limitations, we introduce ContextFlow, a novel training-free framework for DiT-based video object editing. In detail, we first employ a high-order Rectified Flow solver to establish a robust editing foundation. The core of our framework is Adaptive Context Enrichment (for specifying what to edit), a mechanism that addresses contextual conflicts. Instead of replacing features, it enriches the self-attention context by concatenating Key-Value pairs from parallel reconstruction and editing paths, empowering the model to dynamically fuse information. Additionally, to determine where to apply this enrichment (for specifying where to edit), we propose a systematic, data-driven analysis to identify task-specific vital layers. Based on a novel Guidance Responsiveness Metric, our method pinpoints the most influential DiT blocks for different tasks (e.g., insertion, swapping), enabling targeted and highly effective guidance. Extensive experiments show that ContextFlow significantly outperforms existing training-free methods and even surpasses several state-of-the-art training-based approaches, delivering temporally coherent, high-fidelity results.
           </p>
         </div>
       </div>
@@ -354,122 +291,989 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <!-- Section Title -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
+    </div>
+
+    <!-- Method Figure -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <figure class="image">
+          <!-- TODO: 替换为你的方法流程图图片 -->
+          <img src="static/images/main_fig.png" alt="我们方法的流程图" loading="lazy">
+        </figure>
+        <figcaption class="has-text-centered content is-medium method-caption">
+          <!-- TODO: 替换为图片的描述 (Caption) -->
+          Overview of the ContextFlow. Our method begins with a high-fidelity video inversion using RF-Solver to obtain a shared noise latent z. A dual-path sampling process then decouples reconstruction and editing. The editing path is guided by our core mechanism, Adaptive Context Enrichment, where Key-Value pairs from the reconstruction path are concatenated into the self-attention blocks of the editing path. This guidance is precisely targeted to vital layers, identified via our Guidance Responsiveness analysis, and is only active during the first half of the denoising process to balance fidelity and consistency.
+        </figcaption>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
 
 
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
+<!-- Main Results Showcase (Grid Carousel) -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Section Title -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Object Insertion</h2>
+        <div class="content has-text-justified">
           
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- The New Grid Carousel -->
+    <div id="results-grid-carousel" class="carousel results-carousel">
+      
+      <!-- Carousel Item 1 (第一页) -->
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/insert/2.jpeg" alt="IDs Input Image" loading="lazy">
           </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A blue car is driving on the road.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/13_origin.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-half">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/13.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-half">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/13_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/13_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Unic</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/13_unic.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Pika</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/13_pika.mp4" type="video/mp4">
+            </video>
+          </div>
+          
         </div>
       </div>
+      <!-- End Carousel Item 1 -->
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/insert/4.jpeg" alt="IDs Input Image" loading="lazy">
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A Pikachu is standing on the plane wing.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/05_origin.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-half">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/05.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-half">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/05_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/05_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Unic</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/05_unic.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Pika</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/05_pika.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/insert/1.jpg" alt="IDs Input Image" loading="lazy" class="image-small">
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              An octopus is swimming in the sea.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/24_origin.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-half">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/24.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-half">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/24_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/24_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Unic</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/24_unic.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Pika</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/24_pika.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+        </div>
+      </div>
+
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/insert/3.png" alt="IDs Input Image" loading="lazy">
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A red poppy flower surrounded by purple flowers. A large gorilla is gently trying to touch the red poppy flower.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/09_origin.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/09.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/09_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/09_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/insert/4.jpeg" alt="IDs Input Image" loading="lazy">
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A giant Pikachu is floating on the sea.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/16_origin.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/16.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/16_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/insert/16_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+          
+        </div>
+      </div>
+      <!-- 你可以在这里添加更多的 <div class="item">...</div> 来创建第三页、第四页... -->
+
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- End Main Results Showcase -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Section Title -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Object Swapping</h2>
+        <div class="content has-text-justified">
+          
         </div>
       </div>
+    </div>
+
+    <!-- The New Grid Carousel -->
+    <div id="results-grid-carousel" class="carousel results-carousel">
+      
+      <!-- Carousel Item 1 (第一页) -->
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/swap/dog.png" alt="IDs Input Image" loading="lazy" class="image-small">
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A man in casual attire, including a black t-shirt, blue jeans, and sneakers, is seen walking on a paved path in a park with his Samoyed guide dog.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/16_origin.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-half">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/16.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-half">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/16_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/16_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Unic</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/16_unic.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Pika</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/16_pika.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+        </div>
+      </div>
+      <!-- End Carousel Item 1 -->
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/swap/tqjb.jpeg" alt="IDs Input Image" loading="lazy" class="image-small">
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A man in a black tuxedo stands in a festive, dimly lit environment fliied with sparking lights and decorations.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/02_origin.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-half">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/02.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-half">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/02_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/02_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Unic</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/02_unic.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Pika</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/02_pika.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/swap/Pikachu.jpeg" alt="IDs Input Image" loading="lazy" class="image-small">
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A Pikachu sits on top of a toy jeep against a brick wall.</p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/08_origin.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-half">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/08.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-half">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/08_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/08_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Unic</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/08_unic.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Pika</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/08_pika.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/swap/building.jpeg" alt="IDs Input Image" loading="lazy" class="image-tiny" >
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A colossal Statue of Liberty stands atop a white base with classical columns, surrounded by a dense forest.</p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/20_origin.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-half">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/20.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-half">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/20_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/20_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Unic</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/20_unic.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Pika</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/20_pika.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ids">IDs</h3>
+            <!-- TODO: 替换为你的图片 -->
+            <img src="static/images/swap/shirt.png" alt="IDs Input Image" loading="lazy" class="image-small" >
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              In the scene, the young man with dark hair and a contemplative expression is now wearing a stylish black leather jacket.
+            </p>
+          </div>
+          <div class="column is-one-fifth">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/25_origin.mp4" type="video/mp4" class="video-tiny">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-one-fifth">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/25.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-fifth">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/25_vace.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-fifth">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/25_anyv2v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-fifth">
+            <h3 class="result-label label-vace">Unic</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/25_unic.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-fifth">
+            <h3 class="result-label label-vace">Pika</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/swap/25_pika.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+        </div>
+      </div>
+      <!-- 你可以在这里添加更多的 <div class="item">...</div> 来创建第三页、第四页... -->
+
     </div>
   </div>
 </section>
-<!-- End video carousel -->
 
 
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Section Title -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Object Deletion</h2>
+        <div class="content has-text-justified">
+          
+        </div>
       </div>
     </div>
-  </section>
-<!--End paper poster -->
+
+    <!-- The New Grid Carousel -->
+    <div id="results-grid-carousel" class="carousel results-carousel">
+      
+      <!-- Carousel Item 1 (第一页) -->
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A man in a plaid shirt, denim overalls, and a white cap is seen using a pitchfork in a rural farm setting. He stands next to a green wheelbarrow filled with hay, against a backdrop of a wooden fence, a dark green-roofed building, and a clear blue sky. 
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/11_origin_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/11_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/11_vace_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/11_anyv2v_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Kling</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/11_kling_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+          
+        </div>
+      </div>
+      <!-- End Carousel Item 1 -->
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A serene landscape features a lush green field surrounded by rolling hills, a forest, and a small village nestled against a mountainous backdrop under a clear blue sky.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/12_origin_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/12_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/12_vace_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/12_anyv2v_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Kling</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/12_kling_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              Two young women, dressed in cozy winter attire, stand together in a tranquil snowy winter landscape, engaging in the warmth of sharing a hot drink.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/16_origin_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/16_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/16_vace_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/16_anyv2v_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Kling</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/16_kling_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A cow is standing in the fence grazing. There is straw on the ground and a trough.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/19_origin_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/19_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/19_vace_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/19_anyv2v_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Kling</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/19_kling_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="columns is-multiline is-vcentered has-text-centered">
+          <!-- Top Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-caption">Caption</h3>
+            <p class="caption-text">
+              A book.
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-ref">Reference Video</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/06_origin_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <!-- Bottom Row -->
+          <div class="column is-one-third">
+            <h3 class="result-label label-ours">Ours</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/06_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">VACE</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/06_vace_1.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">AnyV2V</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/06_anyv2v_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-one-third">
+            <h3 class="result-label label-vace">Kling</h3>
+            <!-- TODO: 替换为你的视频 -->
+            <video poster="" controls muted loop preload="metadata">
+              <source src="static/videos/delete/06_kling_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          
+          
+        </div>
+      </div>
+      <!-- 你可以在这里添加更多的 <div class="item">...</div> 来创建第三页、第四页... -->
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -483,11 +1287,11 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
+      <pre id="bibtex-code"><code>@article{YourPaperKey2025,
   title={Your Paper Title Here},
   author={First Author and Second Author and Third Author},
   journal={Conference/Journal Name},
-  year={2024},
+  year={2025},
   url={https://your-domain.com/your-project-page}
 }</code></pre>
     </div>
