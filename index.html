@@ -264,7 +264,7 @@
       <img src="static/images/teaser.png" alt="Teaser Image of the Project" class="teaser-image">
 
       <!-- TODO: Replace with your image description (or remove if not needed) -->
-      <h2 class="subtitle has-text-centered">
+      <h2 class="has-text-justified">
         Our ContextFlow achieves versatile and high-fidelity video object editing without any training. Our method demonstrates superior ability in a range of object-related challenging tasks, including object insertion (1st row), swapping (2nd row), and deletion (3rd row).  
       </h2>
     </div>
@@ -297,8 +297,6 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Method</h2>
-        <div class="content has-text-justified">
-        </div>
       </div>
     </div>
 
@@ -309,8 +307,13 @@
           <!-- TODO: 替换为你的方法流程图图片 -->
           <img src="static/images/main_fig.png" alt="我们方法的流程图" loading="lazy">
         </figure>
-        <figcaption class="has-text-centered content is-medium method-caption">
+        <div class="content has-text-justified">
+        </div>
+        <figcaption class="has-text-justified">
           <!-- TODO: 替换为图片的描述 (Caption) -->
+
+
+
           Overview of the ContextFlow. Our method begins with a high-fidelity video inversion using RF-Solver to obtain a shared noise latent z. A dual-path sampling process then decouples reconstruction and editing. The editing path is guided by our core mechanism, Adaptive Context Enrichment, where Key-Value pairs from the reconstruction path are concatenated into the self-attention blocks of the editing path. This guidance is precisely targeted to vital layers, identified via our Guidance Responsiveness analysis, and is only active during the first half of the denoising process to balance fidelity and consistency.
         </figcaption>
       </div>
